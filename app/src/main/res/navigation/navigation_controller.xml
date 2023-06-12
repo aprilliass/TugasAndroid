@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_controller"
+    app:startDestination="@id/nav_profil">
+
+    <fragment
+        android:id="@+id/nav_profil"
+        android:name="com.infinitelearning.androiid.AccountFragment"
+        android:label="Account"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.infinitelearning.androiid.SendFragment"
+        android:label="Send"
+        tools:layout="@layout/fragment_send" />
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.infinitelearning.androiid.ShareFragment"
+        android:label="Share"
+        tools:layout="@layout/fragment_share" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.infinitelearning.androiid.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
